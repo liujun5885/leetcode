@@ -1,0 +1,1 @@
+# link: https://leetcode-cn.com/problems/longest-consecutive-sequence/

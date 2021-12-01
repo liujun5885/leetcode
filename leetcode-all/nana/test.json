@@ -1,0 +1,210 @@
+{
+  "appName": "Bingo Bash HD feat. MONOPOLY",
+  "primaryGenreId": 101002,
+  "secondarySubgenreList": [],
+  "appIcon": "https://static-s.aa-cdn.net/img/ios/486363584/a6ccfbc1d87ca6cf86f48eaef23a4578_w80",
+  "images": [],
+  "tags": [
+    {
+      "status": "present",
+      "tag": {
+        "modifier_id": 500002,
+        "modifier_name": "Cartoony",
+        "name": "Cartoony"
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.165.0",
+            "date": 1613347200000,
+            "product_version_id": 27688891
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "status": "present",
+      "tag": {
+        "modifier_id": 500006,
+        "modifier_name": "Landscape",
+        "name": "Landscape"
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.165.0",
+            "date": 1613347200000,
+            "product_version_id": 27688891
+          },
+          "type": "add"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "tags": [
+        {
+          "modifier_id": 500002,
+          "modifier_name": "Cartoony",
+          "name": "Cartoony",
+          "category_id": 400008
+        },
+        {
+          "modifier_id": 500008,
+          "modifier_name": "2D",
+          "name": "2D",
+          "category_id": 400008
+        },
+        {
+          "modifier_id": 600002,
+          "modifier_name": "Casino/Gambling",
+          "name": "Casino/Gambling",
+          "category_id": 400011
+        },
+        {
+          "modifier_id": 500006,
+          "modifier_name": "Landscape",
+          "name": "Landscape",
+          "category_id": 400008
+        }
+      ],
+      "src": "111.jpb",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191849000
+    },
+    {
+      "tags": [],
+      "src": "",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191850000
+    },
+    {
+      "tags": [],
+      "src": "31151da02e017960766d8c2853c30ab1 copy.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191851000
+    },
+    {
+      "tags": [],
+      "src": "31151da02e017960766d8c2853c30ab1.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191851000
+    }
+    ],
+  "videos": [
+    {
+      "src": "FGO skip CG.mp4",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615426352000,
+      "timeline": [],
+      "isFtue": true,
+      "cdn_stream": "https://static-giq.aa-cdn.net/feature/media/5953dc65-f2ce-4f0a-90ea-8c12be260fb4/AppleHLS1/FGO skip CG.m3u8",
+      "cdn_thumbnail": "https://static-giq.aa-cdn.net/feature/media/5953dc65-f2ce-4f0a-90ea-8c12be260fb4/FileGroup1/FGO skip CG.0000000.jpg"
+    },
+    {
+      "src": "Phone Play Recording 10.18.46.mov",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615276168000,
+      "timeline": [],
+      "isFtue": false,
+      "cdn_stream": "https://static-giq.aa-cdn.net/feature/media/de1b1802-9102-422e-8196-48afe151b9a3/AppleHLS1/Phone Play Recording 10.18.46.m3u8",
+      "cdn_thumbnail": "https://static-giq.aa-cdn.net/feature/media/de1b1802-9102-422e-8196-48afe151b9a3/FileGroup1/Phone Play Recording 10.18.46.0000000.jpg"
+    },
+    {
+      "src": "Phone Play Recording 10.30.12.mov",
+      "version": {
+        "name": "1.165.0",
+        "update_date": 1613347200000,
+        "product_version_id": 20000117221794
+      },
+      "time": 1615435981672,
+      "timeline": [
+        {
+          "tags": [
+            {
+              "modifier_id": 1080013,
+              "modifier_name": "Fuse/Combine Mechanic",
+              "category_id": 400013
+            },
+            {
+              "modifier_id": 1080003,
+              "modifier_name": "Core Gameplay Loop",
+              "category_id": 400013
+            },
+            {
+              "modifier_id": 1080009,
+              "modifier_name": "Notification Settings",
+              "category_id": 400013
+            }
+          ],
+          "time": 0
+        },
+        {
+          "tags": [
+            {
+              "modifier_id": 1080001,
+              "modifier_name": "Tutorial Start",
+              "category_id": 400013
+            },
+            {
+              "modifier_id": 1080002,
+              "modifier_name": "Tutorial Stop",
+              "category_id": 400013
+            },
+            {
+              "modifier_id": 1080005,
+              "modifier_name": "Limited Time IAP Offer",
+              "category_id": 400013
+            }
+          ],
+          "time": 13
+        }
+      ],
+      "isFtue": true,
+      "cdn_stream": "https://static-giq.aa-cdn.net/feature/media/c2aa8e33-a9c3-46d5-a8ed-1a21913fa547/AppleHLS1/Phone Play Recording 10.30.12.m3u8",
+      "cdn_thumbnail": "https://static-giq.aa-cdn.net/feature/media/c2aa8e33-a9c3-46d5-a8ed-1a21913fa547/FileGroup1/Phone Play Recording 10.30.12.0000000.jpg"
+    }
+  ],
+  "unified_product_id": 1000600000000165,
+  "versions": [
+    {
+      "name": "1.165.0",
+      "date": 1613347200000,
+      "product_version_id": 27688891
+    }
+  ],
+  "individual_app_id": "486363584",
+  "country_code": "US",
+  "market_code": "apple-store",
+  "initialTagVersion": {
+    "name": "1.165.0",
+    "date": 1613347200000,
+    "product_version_id": 27688891
+  }
+}

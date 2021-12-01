@@ -1,0 +1,1148 @@
+{
+  "appName": "Bingo Bash featuring MONOPOLY: Live Bingo Games",
+  "appDesc": "☘️ Don’t miss the most delightful St.Paddy’s Day bash of the decade! Find yours Loots of Luck ✨ this March with Bingo Bash! ☘️
+
+<b>Help MR. MONOPOLY 🎩 expand his empire with Bingo Bash featuring MONOPOLY 🎲!
+Join Bingo Bash today, for FREE and enjoy playing Bingo with MR. MONOPOLY 🎩. </b>
+It’s just like the classic MONOPOLY game 🎲, with a Bingo twist!  Are you ready to bling it on? Discover Bingo Bash featuring MONOPOLY. Join in the FUN and play for FREE!
+
+Bingo Bash is #1 Bingo game on mobile for free! It’s a classical Bingo game with extra fun as daily bonuses, power ups, themed bingo rooms, original quests and mega events! One of the best real-time online multiplayer bingo games with chats to play with family and friends.
+
+<b>Unlock newest Bingo rooms</b>:
+🦄 <b>Bashville State Fair</b> - play new bingo AND collection game to serve the kids with toys. Play Bingo, operate claw machine, get smiles and complete levels!
+🍩 <b>Daubin Donuts</b> - help Mario to deliver his delicious donuts  to clear the traffic. Call BINGO
+🏖️ <b>Sun’s Out</b> -  enjoy your beach time with the family! Reach a freebie for a Bingo. Play more bingo to build more sculptures!
+🐔 <b>Get Clucky</b> - play bingo with farmer Francis, get hammers and rescue all chickens! Get more fun and collect more items!
+
+Get more fun by mixing up bingo games with some of your favourite 777 slot machine games like Stars &amp; 7s Slots and many more slot mini games! Brace yourself for an exciting bingo cruise party filled with multiplayer bingo games for free!
+
+Enjoy playing classic bingo, collectibles, team vs team and other great bingo challenges - play bingo, collect items, enjoy the story, level up and win big bingo rewards!
+
+<b>Make a journey with our classic and exclusive Bingo rooms:</b>
+- Chow down on some sticky sweets with Sugar Rush Bingo and Cupcake Street!
+- Taste our very special espresso in the Coffee Crush Bingo room, sell coffee and win bingo chips!
+- Prepare yourself for the summer season on the Beach Bash - remember, Bingos give you drinks! Win up to 3400 chips in this bingo room!
+- Form any of the 13 classic patterns for a Bingo in Karat Craze bingo room and get delicious rewards!
+- Find the hidden objects and win chips with a very special bingo Drive &amp; Go Seek room. Reveal dish and cutlery to call BINGO!
+- Get all elves to a workshop with Merry Maze bingo room, call Bingo and get special tools to clear obstacles to collect bells.
+
+Join millions of live Bingo players from across the globe to play in over 15+ Bingo Live rooms with 13 different ways to win big and call “Bingo”! Play multiple Bingo cards at once and make those bingos pop right out. BOOST your bingo with power plays in one of the top bingo games and continue playing bingo for free! Grab some bingo chips &amp; make it a bingo party online that you’ll never forget!
+
+Play with friends bingo online and chat while you’re playing Bingo games and team up with them to uncover huge rewards and bonuses! Earn more coins with free slots games. Call 4 Bingos in Premium to WIN a JACKPOT.
+
+Follow bingo game updates, special offers and communicate with peers:
+Facebook https://www.facebook.com/playbingobash
+Instagram https://www.instagram.com/bingobashofficial/
+
+The MONOPOLY name and logo, the distinctive design of the game board, the four corner squares, the MR. MONOPOLY name and character, as well as each of the distinctive elements of the board and playing pieces are trademarks of Hasbro for its property trading game and game equipment. ©1935, 2020 Hasbro. All Rights Reserved. Licensed by Hasbro.
+
+Please note:
+• Bingo Bash is intended for a mature audience.
+• Bingo Bash does not offer \"real money gambling\" or an opportunity to win real money or prizes.
+• Past success at social casino gaming has no relationship to future success at \"real money gambling\".",
+  "unified_product_id": 1000600000000165,
+  "individual_app_id": 20600000454618,
+  "primaryGenreId": 101002,
+  "secondarySubgenreList": [
+    305002
+  ],
+  "initialTagVersion": {
+    "name": "1.163.0",
+    "date": 1608508800000,
+    "product_version_id": 20000116233130
+  },
+  "tags": [
+    {
+      "update_time": 1615444469432,
+      "status": "present",
+      "tag": {
+        "modifier_id": 500002,
+        "modifier_name": "Cartoony",
+        "name": "Cartoony",
+        "category_id": 400008
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.163.0",
+            "date": 1608508800000,
+            "product_version_id": 20000116233130
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469432,
+      "status": "present",
+      "tag": {
+        "modifier_id": 500006,
+        "modifier_name": "Landscape",
+        "name": "Landscape",
+        "category_id": 400008
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.163.0",
+            "date": 1608508800000,
+            "product_version_id": 20000116233130
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469432,
+      "status": "present",
+      "tag": {
+        "modifier_id": 500008,
+        "modifier_name": "2D",
+        "name": "2D",
+        "category_id": 400008
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.163.0",
+            "date": 1608508800000,
+            "product_version_id": 20000116233130
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469432,
+      "status": "present",
+      "tag": {
+        "modifier_id": 600002,
+        "modifier_name": "Casino/Gambling",
+        "name": "Casino/Gambling",
+        "category_id": 400011
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.163.0",
+            "date": 1608508800000,
+            "product_version_id": 20000116233130
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469432,
+      "status": "present",
+      "tag": {
+        "modifier_id": 700002,
+        "modifier_name": "Consumables",
+        "name": "Consumables",
+        "category_id": 400010
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.163.0",
+            "date": 1608508800000,
+            "product_version_id": 20000116233130
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469432,
+      "status": "present",
+      "tag": {
+        "modifier_id": 700007,
+        "modifier_name": "Starter Pack",
+        "name": "Starter Pack",
+        "category_id": 400010
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.163.0",
+            "date": 1608508800000,
+            "product_version_id": 20000116233130
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469432,
+      "status": "present",
+      "tag": {
+        "modifier_id": 800003,
+        "modifier_name": "Chat",
+        "name": "Chat",
+        "category_id": 400012
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.163.0",
+            "date": 1608508800000,
+            "product_version_id": 20000116233130
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469432,
+      "status": "present",
+      "tag": {
+        "modifier_id": 800004,
+        "modifier_name": "Competitive Multiplayer",
+        "name": "Competitive Multiplayer",
+        "category_id": 400012
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.163.0",
+            "date": 1608508800000,
+            "product_version_id": 20000116233130
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469432,
+      "status": "present",
+      "tag": {
+        "modifier_id": 800005,
+        "modifier_name": "Daily & Login Rewards",
+        "name": "Daily & Login Rewards",
+        "category_id": 400007
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.163.0",
+            "date": 1608508800000,
+            "product_version_id": 20000116233130
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469432,
+      "status": "present",
+      "tag": {
+        "modifier_id": 800007,
+        "modifier_name": "Leaderboards",
+        "name": "Leaderboards",
+        "category_id": 400012
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.163.0",
+            "date": 1608508800000,
+            "product_version_id": 20000116233130
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469432,
+      "status": "present",
+      "tag": {
+        "modifier_id": 800012,
+        "modifier_name": "Lucky Spin/Scratch Card",
+        "name": "Lucky Spin/Scratch Card",
+        "category_id": 400010
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.163.0",
+            "date": 1608508800000,
+            "product_version_id": 20000116233130
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469432,
+      "status": "present",
+      "tag": {
+        "modifier_id": 800013,
+        "modifier_name": "Friend Invites",
+        "name": "Friend Invites",
+        "category_id": 400012
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.163.0",
+            "date": 1608508800000,
+            "product_version_id": 20000116233130
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469432,
+      "status": "present",
+      "tag": {
+        "modifier_id": 900058,
+        "modifier_name": "No IP",
+        "name": "No IP",
+        "category_id": 400009
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.163.0",
+            "date": 1608508800000,
+            "product_version_id": 20000116233130
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469432,
+      "status": "present",
+      "tag": {
+        "modifier_id": 1200008,
+        "modifier_name": "Killstreaks",
+        "name": "Killstreaks",
+        "category_id": 400025
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.163.0",
+            "date": 1608508800000,
+            "product_version_id": 20000116233130
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469433,
+      "status": "present",
+      "tag": {
+        "modifier_id": 1060017,
+        "modifier_name": "Theme - Asian Fantasy - Korean Mythology",
+        "name": "Theme - Asian Fantasy - Korean Mythology",
+        "category_id": 400011
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.163.0",
+            "date": 1608508800000,
+            "product_version_id": 20000116233130
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469433,
+      "status": "present",
+      "tag": {
+        "modifier_id": 1070002,
+        "modifier_name": "P2P Economy - Open",
+        "name": "P2P Economy - Open",
+        "category_id": 400012
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.165.0",
+            "date": 1613347200000,
+            "product_version_id": 20000117221794
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469433,
+      "status": "present",
+      "tag": {
+        "modifier_id": 1050004,
+        "modifier_name": "Rewarded Video - Life/Continue",
+        "name": "Rewarded Video - Life/Continue",
+        "category_id": 400010
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.166.0",
+            "date": 1614211200000,
+            "product_version_id": 20000117417435
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469433,
+      "status": "present",
+      "tag": {
+        "modifier_id": 1070016,
+        "modifier_name": "Social/PVP Currency",
+        "name": "Social/PVP Currency",
+        "category_id": 400012
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.165.0",
+            "date": 1613347200000,
+            "product_version_id": 20000117221794
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469433,
+      "status": "present",
+      "tag": {
+        "modifier_id": 1090005,
+        "modifier_name": "Hard Level Indicator",
+        "name": "Hard Level Indicator",
+        "category_id": 400014
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.166.0",
+            "date": 1614211200000,
+            "product_version_id": 20000117417435
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469433,
+      "status": "present",
+      "tag": {
+        "modifier_id": 1130003,
+        "modifier_name": "Primary Mechanic - Designing",
+        "name": "Primary Mechanic - Designing",
+        "category_id": 400018
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.165.0",
+            "date": 1613347200000,
+            "product_version_id": 20000117221794
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469433,
+      "status": "present",
+      "tag": {
+        "modifier_id": 1140002,
+        "modifier_name": "Unlockable Narrative",
+        "name": "Unlockable Narrative",
+        "category_id": 400019
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.164.0",
+            "date": 1610928000000,
+            "product_version_id": 20000116719450
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469433,
+      "status": "present",
+      "tag": {
+        "modifier_id": 600005,
+        "modifier_name": "Theme - Asian Fantasy - Xian Xia",
+        "name": "Theme - Asian Fantasy - Xian Xia",
+        "category_id": 400011
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.166.0",
+            "date": 1614211200000,
+            "product_version_id": 20000117417435
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469433,
+      "status": "present",
+      "tag": {
+        "modifier_id": 1040018,
+        "modifier_name": "Multiplatform - Streaming",
+        "name": "Multiplatform - Streaming",
+        "category_id": 400009
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.166.0",
+            "date": 1614211200000,
+            "product_version_id": 20000117417435
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469433,
+      "status": "present",
+      "tag": {
+        "modifier_id": 1050005,
+        "modifier_name": "Rewarded Video - Energy",
+        "name": "Rewarded Video - Energy",
+        "category_id": 400010
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.166.0",
+            "date": 1614211200000,
+            "product_version_id": 20000117417435
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469433,
+      "status": "present",
+      "tag": {
+        "modifier_id": 1060009,
+        "modifier_name": "Theme - Asian Fantasy",
+        "name": "Theme - Asian Fantasy",
+        "category_id": 400011
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.165.0",
+            "date": 1613347200000,
+            "product_version_id": 20000117221794
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469433,
+      "status": "present",
+      "tag": {
+        "modifier_id": 1070017,
+        "modifier_name": "PVP Only Benefits",
+        "name": "PVP Only Benefits",
+        "category_id": 400012
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.164.0",
+            "date": 1610928000000,
+            "product_version_id": 20000116719450
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469433,
+      "status": "present",
+      "tag": {
+        "modifier_id": 1150009,
+        "modifier_name": "Items within Battles",
+        "name": "Items within Battles",
+        "category_id": 400020
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.165.0",
+            "date": 1613347200000,
+            "product_version_id": 20000117221794
+          },
+          "type": "add"
+        }
+      ]
+    },
+    {
+      "update_time": 1615444469433,
+      "status": "present",
+      "tag": {
+        "modifier_id": 1150004,
+        "modifier_name": "Synergies",
+        "name": "Synergies",
+        "category_id": 400020
+      },
+      "changes": [
+        {
+          "version": {
+            "name": "1.165.0",
+            "date": 1613347200000,
+            "product_version_id": 20000117221794
+          },
+          "type": "add"
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "tags": [
+        {
+          "modifier_id": 500002,
+          "modifier_name": "Cartoony",
+          "name": "Cartoony",
+          "category_id": 400008
+        },
+        {
+          "modifier_id": 500008,
+          "modifier_name": "2D",
+          "name": "2D",
+          "category_id": 400008
+        },
+        {
+          "modifier_id": 600002,
+          "modifier_name": "Casino/Gambling",
+          "name": "Casino/Gambling",
+          "category_id": 400011
+        },
+        {
+          "modifier_id": 500006,
+          "modifier_name": "Landscape",
+          "name": "Landscape",
+          "category_id": 400008
+        }
+      ],
+      "src": "",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191849000
+    },
+    {
+      "tags": [],
+      "src": "31151da02e017960766d8c2853c30ab1 copy 3.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191850000
+    },
+    {
+      "tags": [],
+      "src": "31151da02e017960766d8c2853c30ab1 copy.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191851000
+    },
+    {
+      "tags": [],
+      "src": "31151da02e017960766d8c2853c30ab1.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191851000
+    },
+    {
+      "tags": [],
+      "src": "332ed6ae11fce522f1b46340a87c3a00 copy 10.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191843000
+    },
+    {
+      "tags": [],
+      "src": "332ed6ae11fce522f1b46340a87c3a00 copy 11.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191843000
+    },
+    {
+      "tags": [],
+      "src": "332ed6ae11fce522f1b46340a87c3a00 copy 12.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191845000
+    },
+    {
+      "tags": [],
+      "src": "332ed6ae11fce522f1b46340a87c3a00 copy 13.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191845000
+    },
+    {
+      "tags": [],
+      "src": "332ed6ae11fce522f1b46340a87c3a00 copy 2.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191839000
+    },
+    {
+      "tags": [],
+      "src": "332ed6ae11fce522f1b46340a87c3a00 copy 3.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191840000
+    },
+    {
+      "tags": [],
+      "src": "332ed6ae11fce522f1b46340a87c3a00 copy 4.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191840000
+    },
+    {
+      "tags": [],
+      "src": "332ed6ae11fce522f1b46340a87c3a00 copy 5.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191841000
+    },
+    {
+      "tags": [],
+      "src": "332ed6ae11fce522f1b46340a87c3a00 copy 6.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191841000
+    },
+    {
+      "tags": [],
+      "src": "332ed6ae11fce522f1b46340a87c3a00 copy 7.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191841000
+    },
+    {
+      "tags": [],
+      "src": "332ed6ae11fce522f1b46340a87c3a00 copy 8.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191856000
+    },
+    {
+      "tags": [],
+      "src": "332ed6ae11fce522f1b46340a87c3a00 copy 9.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191842000
+    },
+    {
+      "tags": [],
+      "src": "332ed6ae11fce522f1b46340a87c3a00 copy.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191846000
+    },
+    {
+      "tags": [],
+      "src": "332ed6ae11fce522f1b46340a87c3a00.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191846000
+    },
+    {
+      "tags": [],
+      "src": "41ed8b742e1c253bef98a2fa1866ad32 copy 2.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191836000
+    },
+    {
+      "tags": [],
+      "src": "41ed8b742e1c253bef98a2fa1866ad32 copy.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191836000
+    },
+    {
+      "tags": [],
+      "src": "41ed8b742e1c253bef98a2fa1866ad32.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191837000
+    },
+    {
+      "tags": [],
+      "src": "52e8bb24c0e55a82e5d05b5567e69ab1 copy.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191837000
+    },
+    {
+      "tags": [],
+      "src": "52e8bb24c0e55a82e5d05b5567e69ab1.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191837000
+    },
+    {
+      "tags": [],
+      "src": "5960ae17102ea17c4f3a0d414d4f710c copy.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191847000
+    },
+    {
+      "tags": [],
+      "src": "5960ae17102ea17c4f3a0d414d4f710c.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191849000
+    },
+    {
+      "tags": [],
+      "src": "6717e46e8e6f73939a9ff60f781cd9e6.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191848000
+    },
+    {
+      "tags": [],
+      "src": "92e329ca4b4acfb22757cb73a02f3b51 copy 2.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191838000
+    },
+    {
+      "tags": [],
+      "src": "92e329ca4b4acfb22757cb73a02f3b51 copy.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191839000
+    },
+    {
+      "tags": [],
+      "src": "92e329ca4b4acfb22757cb73a02f3b51.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191839000
+    },
+    {
+      "tags": [],
+      "src": "DNA FTUE_ios_2-1612510293959.png",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191857000
+    },
+    {
+      "tags": [],
+      "src": "DNA FTUE_ios_2-1612510295816.png",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191860000
+    },
+    {
+      "tags": [],
+      "src": "DNA FTUE_ios_2-1612510297677.png",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191859000
+    },
+    {
+      "tags": [],
+      "src": "FGO skip CG-1611891538772.png",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191861000
+    },
+    {
+      "tags": [],
+      "src": "FGO skip CG-1612150773071.png",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191862000
+    },
+    {
+      "tags": [],
+      "src": "FGO skip CG-1612150773851.png",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191862000
+    },
+    {
+      "tags": [],
+      "src": "IMG_0087.PNG",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191864000
+    },
+    {
+      "tags": [],
+      "src": "Phone Play Recording 10-1611218291157.png",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191865000
+    },
+    {
+      "tags": [],
+      "src": "ca2b91b3d078aac6067f89892286317b.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191853000
+    },
+    {
+      "tags": [],
+      "src": "d154b80cdc1a9da37e15be3b2310d048.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191853000
+    },
+    {
+      "tags": [],
+      "src": "dceb0cee727f74174949a53fdea00666.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191854000
+    },
+    {
+      "tags": [],
+      "src": "e5b0f864c0146624144fcc30b4e61c35.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191859000
+    },
+    {
+      "tags": [],
+      "src": "e8e8d6e8660b8e4f434d9fb760248fcc.jpg",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615191860000
+    }
+  ],
+  "videos": [
+    {
+      "src": "FGO skip CG.mp4",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615426352000,
+      "timeline": [],
+      "isFtue": true,
+      "cdn_stream": "https://static-giq.aa-cdn.net/feature/media/5953dc65-f2ce-4f0a-90ea-8c12be260fb4/AppleHLS1/FGO skip CG.m3u8",
+      "cdn_thumbnail": "https://static-giq.aa-cdn.net/feature/media/5953dc65-f2ce-4f0a-90ea-8c12be260fb4/FileGroup1/FGO skip CG.0000000.jpg"
+    },
+    {
+      "src": "Phone Play Recording 10.18.46.mov",
+      "version": {
+        "name": "1.166.0",
+        "update_date": 1614211200000,
+        "product_version_id": 20000117417435
+      },
+      "time": 1615276168000,
+      "timeline": [],
+      "isFtue": false,
+      "cdn_stream": "https://static-giq.aa-cdn.net/feature/media/de1b1802-9102-422e-8196-48afe151b9a3/AppleHLS1/Phone Play Recording 10.18.46.m3u8",
+      "cdn_thumbnail": "https://static-giq.aa-cdn.net/feature/media/de1b1802-9102-422e-8196-48afe151b9a3/FileGroup1/Phone Play Recording 10.18.46.0000000.jpg"
+    },
+    {
+      "src": "Phone Play Recording 10.30.12.mov",
+      "version": {
+        "name": "1.165.0",
+        "update_date": 1613347200000,
+        "product_version_id": 20000117221794
+      },
+      "time": 1615435981672,
+      "timeline": [
+        {
+          "tags": [
+            {
+              "modifier_id": 1080013,
+              "modifier_name": "Fuse/Combine Mechanic",
+              "category_id": 400013
+            },
+            {
+              "modifier_id": 1080003,
+              "modifier_name": "Core Gameplay Loop",
+              "category_id": 400013
+            },
+            {
+              "modifier_id": 1080009,
+              "modifier_name": "Notification Settings",
+              "category_id": 400013
+            }
+          ],
+          "time": 0
+        },
+        {
+          "tags": [
+            {
+              "modifier_id": 1080001,
+              "modifier_name": "Tutorial Start",
+              "category_id": 400013
+            },
+            {
+              "modifier_id": 1080002,
+              "modifier_name": "Tutorial Stop",
+              "category_id": 400013
+            },
+            {
+              "modifier_id": 1080005,
+              "modifier_name": "Limited Time IAP Offer",
+              "category_id": 400013
+            }
+          ],
+          "time": 13
+        }
+      ],
+      "isFtue": true,
+      "cdn_stream": "https://static-giq.aa-cdn.net/feature/media/c2aa8e33-a9c3-46d5-a8ed-1a21913fa547/AppleHLS1/Phone Play Recording 10.30.12.m3u8",
+      "cdn_thumbnail": "https://static-giq.aa-cdn.net/feature/media/c2aa8e33-a9c3-46d5-a8ed-1a21913fa547/FileGroup1/Phone Play Recording 10.30.12.0000000.jpg"
+    }
+  ],
+  "appIcon": "https://static-s.aa-cdn.net/img/gp/20600000454618/lrXuMvaeJJjeSwec0SXpYkNz1UxMiwzPyKX_86r0ue0YG5sevllvxTX3M1f7kluBIXGq=s300_w80",
+  "country_code": "US",
+  "market_code": "google-play"
+}

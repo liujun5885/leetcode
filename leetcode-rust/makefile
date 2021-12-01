@@ -1,0 +1,2 @@
+test:
+	cargo test --color=always --lib generate_parentheses::tests::it_works --no-fail-fast --manifest-path /Users/bdmd/workspace/leetcode-rust/dynamic-programming/Cargo.toml -- --format=json --exact -Z unstable-options --show-output

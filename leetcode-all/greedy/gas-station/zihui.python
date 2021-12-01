@@ -1,0 +1,20 @@
+class Solution:
+    def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
+        # If the farthest station i can get to is j, any idx between [i, j] cannot travel around the circuit once.
+        # Therefore, instead of checking if i + 1 can travel around the circuit, we should check j.
+        n = len(gas)
+        i = 0
+
+        while i < n:
+            curr_gas = gas[i]
+            j = i
+            while curr_gas - cost[j] >= 0:
+                curr_gas = curr_gas - cost[j] + gas[(j + 1) % n]
+                j = (j + 1) % n
+                if j == i:
+                    return j
+            if j < i:
+                return -1
+            i = j if i != j else i + 1
+
+        return -1
