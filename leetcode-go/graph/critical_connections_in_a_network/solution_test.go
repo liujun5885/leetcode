@@ -14,3 +14,13 @@ func TestCase01(t *testing.T) {
 		t.Errorf("actual: %v != expected: %v", actual, expected)
 	}
 }
+
+func TestCase02(t *testing.T) {
+	n := 4
+	connections := [][]int{{0, 1}, {1, 2}, {2, 3}, {3, 0}}
+	actual := criticalConnections(n, connections)
+	var expected [][]int
+	if !cmp.Equal(actual, expected) {
+		t.Errorf("actual: %v != expected: %v", actual, expected)
+	}
+}
