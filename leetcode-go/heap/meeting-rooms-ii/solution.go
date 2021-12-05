@@ -27,7 +27,7 @@ func minMeetingRooms(intervals [][]int) int {
 
 	h := &IntHeap{}
 	for _, i := range intervals {
-		if len(*h) == 0 {
+		if h.Len() == 0 {
 			heap.Push(h, i[1])
 			continue
 		}
@@ -36,5 +36,5 @@ func minMeetingRooms(intervals [][]int) int {
 		}
 		heap.Push(h, i[1])
 	}
-	return len(*h)
+	return h.Len()
 }
