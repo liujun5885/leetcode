@@ -15,8 +15,7 @@ class Solution:
             visited[u] = 1
             for v in edges[u]:
                 if visited[v] == 0:
-                    valid = dfs(v)
-                    if not valid:
+                    if not dfs(v):
                         return False
                 elif visited[v] == 1:
                     return False
