@@ -19,38 +19,118 @@
 
 class ParkingLot(object):
     def __init__(self):
-        self.motorcycle = {
-            "available": [],
-            "occupied": [],
+        self.TOTAL_MOTORCYCLE = 100
+        self.TOTAL_CAR = 100
+        self.TOTAL_LARGE = 100
+
+        # key is plate number, value is spot_ids
+        self.PARKED_MOTORCYCLE = {}
+        self.PARKED_CAR = {}
+        self.PARKED_VAN = {}
+
+        self.SPOT_MOTORCYCLE = []
+        self.SPOT_CAR = []
+        self.SPOT_LARGE = []
+
+        self.TYPE_VS_SPOT = {
+            "motorcycle": self.SPOT_MOTORCYCLE,
+            "car": self.SPOT_CAR,
+            "large": self.SPOT_LARGE
         }
-        self.car = {
-            "available": [],
-            "occupied": [],
-        }
-        self.large = {
-            "available": [],
-            "occupied": [],
-        }
-        self.type_vs_spot = {
-            "motorcycle": self.motorcycle,
-            "car": self.car,
-            "large": self.large
+        self.TYPE_VS_CARS = {
+            "motorcycle": self.PARKED_MOTORCYCLE,
+            "car": self.PARKED_CAR,
+            "van": self.PARKED_VAN
         }
 
-    def get_available_spot(self, spot_type, num=1, is_consecutive=False):
+    @staticmethod
+    def get_position_of_spot(spot_id, spot_list):
+        if len(spot_list) == 0:
+            return 0
+
+        start = 0
+        end = len(spot_list) - 1
+        while start < end:
+            i = (start + end) // 2
+            if spot_id > spot_list[i]:
+                start = i + 1
+            else:
+                end = i - 1
+
+        return start
+
+    @staticmethod
+    def put_spot_in_spot_list(spot_id, spot_list):
+        index = ParkingLot.get_position_of_spot(spot_id, spot_list)
+        return spot_list[:index] + [spot_id] + spot_list[index:]
+
+    @staticmethod
+    def pop_spot_from_spot_list(spot_id, spot_list):
+        index = ParkingLot.get_position_of_spot(spot_id, spot_list)
+        return spot_list[:index] + spot_list[index + 1:]
+
+    def _park_car(self, spot_type, num=1):
         spot = self.type_vs_spot[spot_type]
         if len(spot['available']) < num:
-            return []
+            return False
 
-        available_spot = spot['available'][:num]
-        spot['occupied'].extend(available_spot)
-        spot['available'] = spot['available'][num:]
+        i_list = []
+        spot_list = []
+        for i, j in enumerate(spot['available']):
+            if i + num - 1 == j + num - 1:
+                i_list.append(i)
+                spot_list.append(j)
+                num -= 1
+            if num == 0:
+                break
+        if num != 0:
+            return False
 
-        return available_spot
+        spot['available'] = spot['available'][:i_list[0]] + spot['available'][i_list[-1] + 1:]
 
-    def part_car(self, car_type):
-        if car_type == "motorcycle":
-            spot_ids = self.get_available_spot("motorcycle")
+        position = self.get_position_of_spot(spot['available'][i_list[0]], spot['occupied'])
+        spot['occupied'] = spot['occupied'][:position] + spot_list + spot['occupied'][position:]
+
+        return True
+
+    def park_car(self, car_type):
+        car_type_vs_parking_lot_types = {
+            'motorcycle': [
+                {
+                    'type': 'motorcycle',
+                    'spots': 1,
+                },
+                {
+                    'type': 'car',
+                    'spots': 1,
+                },
+                {
+                    'type': 'large',
+                    'spots': 1,
+                },
+            ],
+            'car': [
+                {
+                    'type': 'car',
+                    'spots': 1,
+                },
+                {
+                    'type': 'large',
+                    'spots': 1,
+                },
+            ],
+            'var': [
+                {
+                    'type': 'large',
+                    'spots': 3,
+                },
+            ]
+        }
+
+        for info in car_type_vs_parking_lot_types[car_type]:
+            if self._park_car(info['type'], info['spots']):
+                return True
+        return False
 
     def remaining_spots(self, spot_type=None):
         return self._spot_num(["available"], [spot_type] if spot_type is not None else None)
