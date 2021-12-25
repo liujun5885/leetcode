@@ -1,2 +1,2 @@
 [workspace]
-members = ["dynamic-programming", "heap", "hash-table"]
+members = ["dynamic-programming", "heap", "hash-table", "sorting"]
