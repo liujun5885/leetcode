@@ -1,4 +1,4 @@
-package binary_search
+package codility
 
 import (
 	"github.com/google/go-cmp/cmp"

@@ -1,12 +1,12 @@
-package binary_search
+package codility
 
-//func min(n1, n2 int) int {
-//	if n1 < n2 {
-//		return n1
-//	} else {
-//		return n2
-//	}
-//}
+func min(n1, n2 int) int {
+	if n1 < n2 {
+		return n1
+	} else {
+		return n2
+	}
+}
 
 func Solution(A []int) int {
 	ans := len(A)
