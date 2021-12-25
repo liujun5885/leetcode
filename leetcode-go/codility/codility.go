@@ -24,14 +24,20 @@ func Solution(A []int) int {
 		}
 	}
 
-	for start := 0; start < len(A); start++ {
-		visited = map[int]bool{}
-		for end := start; end < len(A); end++ {
-			location := A[end]
-			visited[location] = true
-			if len(visited) == total {
-				ans = min(ans, end-start+1)
+	start := 0
+	visitedCount := map[int]int{}
+	for end := 0; end < len(A); end++ {
+		location := A[end]
+		visitedCount[location] += 1
+		if len(visitedCount) == total {
+			for ; len(visitedCount) == total; start++ {
+				s := A[start]
+				visitedCount[s] -= 1
+				if visitedCount[s] == 0 {
+					delete(visitedCount, s)
+				}
 			}
+			ans = min(ans, end-start+2)
 		}
 	}
 

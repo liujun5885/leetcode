@@ -22,3 +22,39 @@ func Test02(t *testing.T) {
 		t.Errorf("actual: %v != expected: %v", actual, expected)
 	}
 }
+
+func Test03(t *testing.T) {
+	A := []int{7}
+	actual := Solution(A)
+	expected := 1
+	if !cmp.Equal(actual, expected) {
+		t.Errorf("actual: %v != expected: %v", actual, expected)
+	}
+}
+
+func Test04(t *testing.T) {
+	A := []int{7, 3, 7, 3, 1, 3, 4, 1}
+	actual := Solution(A)
+	expected := 5
+	if !cmp.Equal(actual, expected) {
+		t.Errorf("actual: %v != expected: %v", actual, expected)
+	}
+}
+
+func Test05(t *testing.T) {
+	A := []int{7, 3}
+	actual := Solution(A)
+	expected := 2
+	if !cmp.Equal(actual, expected) {
+		t.Errorf("actual: %v != expected: %v", actual, expected)
+	}
+}
+
+func Test06(t *testing.T) {
+	A := []int{7, 7}
+	actual := Solution(A)
+	expected := 1
+	if !cmp.Equal(actual, expected) {
+		t.Errorf("actual: %v != expected: %v", actual, expected)
+	}
+}
