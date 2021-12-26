@@ -7,10 +7,7 @@
     <cargoProject FILE="$PROJECT_DIR$/leetcode-rust/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afef3c0d-9727-467a-b34a-8e7e0d10eadc" name="Default Changelist" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/sorting/top_k_frequent_words.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/sorting/top_k_frequent_words.rs" afterDir="false" />
-    </list>
+    <list default="true" id="afef3c0d-9727-467a-b34a-8e7e0d10eadc" name="Default Changelist" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -239,7 +236,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640483746258</updated>
       <workItem from="1640483749127" duration="2128000" />
-      <workItem from="1640488896933" duration="5477000" />
+      <workItem from="1640488896933" duration="5768000" />
     </task>
     <task id="LOCAL-00001" summary="update gitignore">
       <created>1640484770392</created>
@@ -290,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640498579631</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update">
+      <created>1640498928517</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1640498928517</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
