@@ -25,3 +25,4 @@ mod uncrossed_lines;
 mod wiggle_subsequence;
 mod trapping_rain_water;
 mod analyze_user_website_visit_pattern;
+mod word_break;
