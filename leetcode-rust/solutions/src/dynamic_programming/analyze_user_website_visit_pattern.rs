@@ -1,3 +1,4 @@
+// https://leetcode-cn.com/problems/analyze-user-website-visit-pattern/
 use std::collections::HashMap;
 
 struct Solution;
@@ -5,18 +6,42 @@ struct Solution;
 
 impl Solution {
     pub fn most_visited_pattern(username: Vec<String>, timestamp: Vec<i32>, website: Vec<String>) -> Vec<String> {
-        let mut username_vs_websites = HashMap::new();
+        let mut username_vs_websites: HashMap<String, Vec<String>> = HashMap::new();
         let n = username.len();
+        let mut most_pattern = String::new();
+        let mut most_pattern_max_score = 0;
 
         for i in 0..n {
-            if username_vs_websites.contains_key(&username[i]) {
-                username_vs_websites.get(&username[i]).unwrap().append(website[i].clone());
-            } else {
-                username_vs_websites.insert(username[i].clone(), vec![website[i].clone()]);
+            match username_vs_websites.get_mut(&username[i]) {
+                Some(w) => {
+                    w.push(String::from(&website[i]))
+                }
+                None => {
+                    username_vs_websites.insert(String::from(&username[i]), vec![String::from(&website[i])]);
+                }
             }
         }
 
-        return vec!["home".to_string(), "about".to_string(), "career".to_string()];
+        let mut pattern_counter = HashMap::new();
+
+        for (_, v) in username_vs_websites.into_iter() {
+            if v.len() < 3 {
+                continue;
+            }
+            for i in 0..v.len() - 2 {
+                let key = v[i..i + 3].join("-");
+                pattern_counter.insert(
+                    String::from(&key), pattern_counter.get(&key).unwrap_or(&0) + 1,
+                );
+                if *(pattern_counter.get(&key).unwrap()) > most_pattern_max_score {
+                    most_pattern_max_score = *pattern_counter.get(&key).unwrap();
+                    most_pattern = key;
+                } else if *(pattern_counter.get(&key).unwrap()) == most_pattern_max_score && most_pattern.ge(&key) {
+                    most_pattern = key;
+                }
+            }
+        }
+        return most_pattern.split("-").map(str::to_string).collect();
     }
 }
 
@@ -36,7 +61,7 @@ mod test {
 
     #[test]
     fn case01() {
-        let mut username = to_vec_string(
+        let username = to_vec_string(
             ["joe", "joe", "joe", "james", "james", "james", "james", "mary", "mary", "mary", ].iter()
         );
         let timestamp = vec![1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
