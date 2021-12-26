@@ -36,7 +36,7 @@ impl Solution {
 
 #[cfg(test)]
 mod test {
-    use crate::most_common_word::Solution;
+    use crate::hash_table::most_common_word::Solution;
 
     #[test]
     fn case01() {

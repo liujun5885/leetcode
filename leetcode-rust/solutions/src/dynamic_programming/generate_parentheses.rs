@@ -35,7 +35,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::generate_parentheses::Solution;
+    use crate::dynamic_programming::generate_parentheses::Solution;
 
     #[test]
     fn case01() {

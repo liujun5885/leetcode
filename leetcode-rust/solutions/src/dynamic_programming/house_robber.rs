@@ -17,7 +17,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::house_robber::Solution;
+    use crate::dynamic_programming::house_robber::Solution;
     #[test]
     fn case01() {
         let actual = Solution::rob(vec![1, 2, 3, 1]);

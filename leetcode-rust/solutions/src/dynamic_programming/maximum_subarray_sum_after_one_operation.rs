@@ -25,7 +25,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::maximum_subarray_sum_after_one_operation::Solution;
+    use crate::dynamic_programming::maximum_subarray_sum_after_one_operation::Solution;
     #[test]
     fn case01() {
         let actual = Solution::max_sum_after_operation(vec![2, -1, -4, -3]);

@@ -34,7 +34,7 @@ impl Solution {
 
 #[cfg(test)]
 mod test {
-    use crate::trapping_rain_water::Solution;
+    use crate::dynamic_programming::trapping_rain_water::Solution;
 
     #[test]
     fn case01() {

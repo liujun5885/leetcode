@@ -25,7 +25,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::best_time_to_buy_and_sell_stock_with_cooldown::Solution;
+    use crate::dynamic_programming::best_time_to_buy_and_sell_stock_with_cooldown::Solution;
     #[test]
     fn case01() {
         let prices = vec![1, 2, 3, 0, 2];

@@ -19,7 +19,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::maximum_subarray::Solution;
+    use crate::dynamic_programming::maximum_subarray::Solution;
     #[test]
     fn case01() {
         let nums = vec![-2, 1, -3, 4, -1, 2, 1, -5, 4];

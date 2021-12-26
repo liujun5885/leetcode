@@ -32,7 +32,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::max_consecutive_ones_ii::Solution;
+    use crate::dynamic_programming::max_consecutive_ones_ii::Solution;
     #[test]
     fn case01() {
         let actual = Solution::find_max_consecutive_ones(vec![1, 0, 1, 1, 0]);

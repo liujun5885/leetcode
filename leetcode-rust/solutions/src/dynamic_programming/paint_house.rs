@@ -22,7 +22,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::paint_house::Solution;
+    use crate::dynamic_programming::paint_house::Solution;
     #[test]
     fn case01() {
         let costs = vec![vec![17, 2, 17], vec![16, 16, 5], vec![14, 3, 19]];

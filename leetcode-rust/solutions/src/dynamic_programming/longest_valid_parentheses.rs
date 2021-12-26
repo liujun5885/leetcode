@@ -36,7 +36,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::longest_valid_parentheses::Solution;
+    use crate::dynamic_programming::longest_valid_parentheses::Solution;
     #[test]
     fn case01() {
         let actual = Solution::longest_valid_parentheses(String::from("()(())"));

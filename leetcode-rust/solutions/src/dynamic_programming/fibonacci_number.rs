@@ -11,7 +11,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::fibonacci_number::Solution;
+    use crate::dynamic_programming::fibonacci_number::Solution;
 
     #[test]
     fn case01() {

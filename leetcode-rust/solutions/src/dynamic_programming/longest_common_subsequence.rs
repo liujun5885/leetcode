@@ -24,7 +24,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::longest_common_subsequence::Solution;
+    use crate::dynamic_programming::longest_common_subsequence::Solution;
 
     #[test]
     fn case01() {

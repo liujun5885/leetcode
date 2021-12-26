@@ -22,7 +22,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::uncrossed_lines::Solution;
+    use crate::dynamic_programming::uncrossed_lines::Solution;
     #[test]
     fn case01() {
         let nums1 = vec![1, 4, 2];

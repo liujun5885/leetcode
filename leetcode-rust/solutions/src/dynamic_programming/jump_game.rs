@@ -4,13 +4,14 @@ struct Solution;
 
 impl Solution {
     pub fn can_jump(nums: Vec<i32>) -> bool {
+        println!("{:?}", nums);
         true
     }
 }
 
 #[cfg(test)]
 mod tests {
-    use crate::jump_game::Solution;
+    use crate::dynamic_programming::jump_game::Solution;
 
     #[test]
     fn case01() {

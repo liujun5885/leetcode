@@ -24,7 +24,7 @@ impl Solution {
 mod test {
     use std::slice::Iter;
 
-    use crate::analyze_user_website_visit_pattern::Solution;
+    use crate::dynamic_programming::analyze_user_website_visit_pattern::Solution;
 
     fn to_vec_string(iter: Iter<&str>) -> Vec<String> {
         let mut vec_strings = vec![];

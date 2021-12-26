@@ -39,7 +39,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::paint_house_ii::Solution;
+    use crate::dynamic_programming::paint_house_ii::Solution;
     #[test]
     fn case01() {
         let raw = [[1, 5, 3], [2, 9, 4]];

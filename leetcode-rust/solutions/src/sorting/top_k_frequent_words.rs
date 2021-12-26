@@ -17,7 +17,7 @@ impl Solution {
 
 #[cfg(test)]
 mod test {
-    use crate::top_k_frequent_words::Solution;
+    use crate::sorting::top_k_frequent_words::Solution;
 
     #[test]
     fn case01() {

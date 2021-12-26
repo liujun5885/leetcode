@@ -32,7 +32,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::number_of_longest_increasing_subsequence::Solution;
+    use crate::dynamic_programming::number_of_longest_increasing_subsequence::Solution;
     // #[test]
     // fn case01() {
     //     let nums = vec![1, 3, 5, 4, 7];

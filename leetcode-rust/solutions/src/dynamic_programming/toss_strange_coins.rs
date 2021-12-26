@@ -29,7 +29,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::toss_strange_coins::Solution;
+    use crate::dynamic_programming::toss_strange_coins::Solution;
     use float_cmp::approx_eq;
     #[test]
     fn case01() {

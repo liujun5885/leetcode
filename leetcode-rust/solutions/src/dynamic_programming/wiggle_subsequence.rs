@@ -28,7 +28,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::wiggle_subsequence::Solution;
+    use crate::dynamic_programming::wiggle_subsequence::Solution;
 
     #[test]
     fn case01() {

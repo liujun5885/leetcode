@@ -37,7 +37,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::minimum_ascii_delete_sum_for_two_strings::Solution;
+    use crate::dynamic_programming::minimum_ascii_delete_sum_for_two_strings::Solution;
     #[test]
     fn case01() {
         let s1 = "sea".to_string();

@@ -28,7 +28,7 @@ impl Solution {
 
 #[cfg(test)]
 mod test {
-    use crate::meeting_rooms_ii::Solution;
+    use crate::heap::meeting_rooms_ii::Solution;
 
     #[test]
     fn case01() {

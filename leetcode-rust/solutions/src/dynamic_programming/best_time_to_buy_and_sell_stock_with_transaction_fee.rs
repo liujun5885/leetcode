@@ -21,7 +21,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::best_time_to_buy_and_sell_stock_with_transaction_fee::Solution;
+    use crate::dynamic_programming::best_time_to_buy_and_sell_stock_with_transaction_fee::Solution;
     #[test]
     fn case01() {
         let prices = vec![1, 3, 2, 8, 4, 9];

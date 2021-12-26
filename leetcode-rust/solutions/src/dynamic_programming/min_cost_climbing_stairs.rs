@@ -15,7 +15,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::min_cost_climbing_stairs::Solution;
+    use crate::dynamic_programming::min_cost_climbing_stairs::Solution;
 
     #[test]
     fn case01() {
