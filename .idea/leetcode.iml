@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/leetcode-rust/hash-table/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/leetcode-rust/heap/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/leetcode-rust/sorting/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/leetcode-rust/solutions/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/leetcode-rust/target" />
       <excludeFolder url="file://$MODULE_DIR$/leetcode-all/dynamic-programming/longest-common-subsequence/target" />
       <excludeFolder url="file://$MODULE_DIR$/leetcode-all/stack/binary-tree-zigzag-level-order-traversal/target" />

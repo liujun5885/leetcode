@@ -7,12 +7,16 @@
     <cargoProject FILE="$PROJECT_DIR$/leetcode-rust/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afef3c0d-9727-467a-b34a-8e7e0d10eadc" name="Default Changelist" comment="update gitignore">
+    <list default="true" id="afef3c0d-9727-467a-b34a-8e7e0d10eadc" name="Default Changelist" comment="https://leetcode-cn.com/problems/top-k-frequent-words/">
+      <change afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/sorting/mod.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/sorting/top_k_frequent_words.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode-rust/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/sorting/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/sorting/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/sorting/src/top_k_frequent_words.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/sorting/src/top_k_frequent_words.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-rust/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-rust/sorting/Cargo.toml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-rust/sorting/src/lib.rs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode-rust/sorting/src/top_k_frequent_words.rs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Rust File" />
       </list>
     </option>
   </component>
@@ -213,7 +218,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640483746258</updated>
       <workItem from="1640483749127" duration="2128000" />
-      <workItem from="1640488896933" duration="3378000" />
+      <workItem from="1640488896933" duration="4377000" />
     </task>
     <task id="LOCAL-00001" summary="update gitignore">
       <created>1640484770392</created>
@@ -236,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640484861775</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="https://leetcode-cn.com/problems/top-k-frequent-words/">
+      <created>1640496535013</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640496535013</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +268,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="update gitignore" />
+    <MESSAGE value="https://leetcode-cn.com/problems/top-k-frequent-words/" />
+    <option name="LAST_COMMIT_MESSAGE" value="https://leetcode-cn.com/problems/top-k-frequent-words/" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
