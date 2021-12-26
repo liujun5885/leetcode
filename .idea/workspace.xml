@@ -7,39 +7,8 @@
     <cargoProject FILE="$PROJECT_DIR$/leetcode-rust/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="afef3c0d-9727-467a-b34a-8e7e0d10eadc" name="Default Changelist" comment="re-organize the code">
+    <list default="true" id="afef3c0d-9727-467a-b34a-8e7e0d10eadc" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/analyze_user_website_visit_pattern.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/analyze_user_website_visit_pattern.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/best_time_to_buy_and_sell_stock.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/best_time_to_buy_and_sell_stock.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/best_time_to_buy_and_sell_stock_with_cooldown.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/best_time_to_buy_and_sell_stock_with_cooldown.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/best_time_to_buy_and_sell_stock_with_transaction_fee.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/best_time_to_buy_and_sell_stock_with_transaction_fee.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/climbing_stairs.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/climbing_stairs.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/fibonacci_number.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/fibonacci_number.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/generate_parentheses.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/generate_parentheses.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/house_robber.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/house_robber.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/house_robber_ii.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/house_robber_ii.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/jump_game.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/jump_game.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/longest_common_subsequence.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/longest_common_subsequence.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/longest_increasing_subsequence.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/longest_increasing_subsequence.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/longest_palindromic_substring.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/longest_palindromic_substring.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/longest_valid_parentheses.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/longest_valid_parentheses.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/max_consecutive_ones_ii.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/max_consecutive_ones_ii.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/maximum_product_subarray.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/maximum_product_subarray.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/maximum_subarray.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/maximum_subarray.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/maximum_subarray_sum_after_one_operation.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/maximum_subarray_sum_after_one_operation.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/min_cost_climbing_stairs.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/min_cost_climbing_stairs.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/minimum_ascii_delete_sum_for_two_strings.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/minimum_ascii_delete_sum_for_two_strings.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/number_of_longest_increasing_subsequence.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/number_of_longest_increasing_subsequence.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/paint_house.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/paint_house.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/paint_house_ii.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/paint_house_ii.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/toss_strange_coins.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/toss_strange_coins.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/trapping_rain_water.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/trapping_rain_water.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/uncrossed_lines.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/uncrossed_lines.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/wiggle_subsequence.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming/wiggle_subsequence.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/hash_table/most_common_word.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/hash_table/most_common_word.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/heap/meeting_rooms_ii.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/heap/meeting_rooms_ii.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leetcode-rust/solutions/src/sorting/top_k_frequent_words.rs" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode-rust/solutions/src/sorting/top_k_frequent_words.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +78,7 @@
       <recent name="$PROJECT_DIR$/leetcode-rust/solutions/src/dynamic_programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.Test sorting::top_k_frequent_words::test::case01">
+  <component name="RunManager" selected="Cargo.Test top_k_frequent_words::test">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -141,6 +110,22 @@
     </configuration>
     <configuration name="Test sorting::top_k_frequent_words::test::case01" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="test --package solutions --lib sorting::top_k_frequent_words::test::case01 -- --exact" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$/leetcode-rust" />
+      <option name="channel" value="DEFAULT" />
+      <option name="requiredFeatures" value="true" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="withSudo" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test sorting::top_k_frequent_words::test::case02" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
+      <option name="command" value="test --package solutions --lib sorting::top_k_frequent_words::test::case02 -- --exact" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$/leetcode-rust" />
       <option name="channel" value="DEFAULT" />
       <option name="requiredFeatures" value="true" />
@@ -206,28 +191,6 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="cloud_kitchen" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="leetcode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/leetcode-python/.venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcode-python" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcode-python/cloud_kitchen.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest in test_sample.py" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -246,20 +209,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.cloud_kitchen" />
       <item itemvalue="Python tests.pytest in test_sample.py" />
       <item itemvalue="Cargo.Test top_k_frequent_words::test::case01" />
       <item itemvalue="Cargo.Test analyze_user_website_visit_pattern::test" />
       <item itemvalue="Cargo.Test sorting::top_k_frequent_words::test::case01" />
       <item itemvalue="Cargo.Test top_k_frequent_words::test" />
+      <item itemvalue="Cargo.Test sorting::top_k_frequent_words::test::case02" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo.Test sorting::top_k_frequent_words::test::case01" />
         <item itemvalue="Cargo.Test top_k_frequent_words::test" />
+        <item itemvalue="Cargo.Test sorting::top_k_frequent_words::test::case02" />
+        <item itemvalue="Cargo.Test sorting::top_k_frequent_words::test::case01" />
         <item itemvalue="Cargo.Test analyze_user_website_visit_pattern::test" />
         <item itemvalue="Cargo.Test top_k_frequent_words::test::case01" />
-        <item itemvalue="Python.cloud_kitchen" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +239,7 @@
       <option name="presentableId" value="Default" />
       <updated>1640483746258</updated>
       <workItem from="1640483749127" duration="2128000" />
-      <workItem from="1640488896933" duration="4957000" />
+      <workItem from="1640488896933" duration="5477000" />
     </task>
     <task id="LOCAL-00001" summary="update gitignore">
       <created>1640484770392</created>
@@ -320,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640498049487</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <created>1640498579631</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1640498579631</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,7 +312,8 @@
     <MESSAGE value="update gitignore" />
     <MESSAGE value="https://leetcode-cn.com/problems/top-k-frequent-words/" />
     <MESSAGE value="re-organize the code" />
-    <option name="LAST_COMMIT_MESSAGE" value="re-organize the code" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

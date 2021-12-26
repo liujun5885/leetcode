@@ -27,6 +27,19 @@ mod test {
         let k = 2;
         let mut actual = Solution::top_k_frequent(words, k);
         let mut expected: Vec<String> = vec!["i", "love"].into_iter().map(|x| { x.to_string() }).collect();
-        assert_eq!(actual.sort_unstable(), expected.sort_unstable());
+        assert_eq!(actual, expected);
+    }
+
+    #[test]
+    fn case02() {
+        let words = vec![
+            "the", "day", "is", "sunny", "the", "the", "the", "sunny", "is", "is",
+        ].into_iter().map(|x| { x.to_string() }).collect();
+        let k = 4;
+        let mut actual = Solution::top_k_frequent(words, k);
+        let mut expected: Vec<String> = vec![
+            "the", "is", "sunny", "day",
+        ].into_iter().map(|x| { x.to_string() }).collect();
+        assert_eq!(actual, expected);
     }
 }
