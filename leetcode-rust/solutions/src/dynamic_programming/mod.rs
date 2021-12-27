@@ -6,7 +6,6 @@ mod fibonacci_number;
 mod generate_parentheses;
 mod house_robber;
 mod house_robber_ii;
-mod jump_game;
 mod longest_common_subsequence;
 mod longest_increasing_subsequence;
 mod longest_palindromic_substring;
