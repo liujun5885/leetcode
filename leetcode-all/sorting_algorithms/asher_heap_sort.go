@@ -19,7 +19,7 @@ func heapify(arr []int, i int) {
 	}
 }
 
-func heapSort(arr []int) {
+func heapSort(arr []int) []int {
 	for i := len(arr) / 2; i >= 0; i-- {
 		heapify(arr, i)
 	}
@@ -27,6 +27,7 @@ func heapSort(arr []int) {
 		arr[0], arr[i] = arr[i], arr[0]
 		heapify(arr[:i], 0)
 	}
+	return arr
 }
 
 func main() {
