@@ -3,28 +3,28 @@ struct Solution;
 
 impl Solution {
     pub fn minimum_total(triangle: Vec<Vec<i32>>) -> i32 {
-        let mut all_paths: Vec<Vec<i32>> = vec![];
+        let mut dp: Vec<Vec<i32>> = vec![];
 
         for i in 0..triangle.len() {
             let mut paths = vec![];
             for j in 0..triangle[i].len() {
                 if i > 0 {
                     if j > 0 {
-                        if all_paths[i - 1].len() > j {
-                            paths.push(triangle[i][j] + all_paths[i - 1][j].min(all_paths[i - 1][j - 1]));
+                        if dp[i - 1].len() > j {
+                            paths.push(triangle[i][j] + dp[i - 1][j].min(dp[i - 1][j - 1]));
                         } else {
-                            paths.push(triangle[i][j] + all_paths[i - 1][j - 1]);
+                            paths.push(triangle[i][j] + dp[i - 1][j - 1]);
                         }
                     } else {
-                        paths.push(triangle[i][j] + all_paths[i - 1][j]);
+                        paths.push(triangle[i][j] + dp[i - 1][j]);
                     }
                 } else {
                     paths.push(triangle[i][j])
                 }
             }
-            all_paths.push(paths);
+            dp.push(paths);
         }
-        return *all_paths[all_paths.len() - 1].iter().min().unwrap();
+        return *dp[dp.len() - 1].iter().min().unwrap();
     }
 }
 
