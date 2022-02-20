@@ -1,0 +1,1 @@
+{"dockerExe":"/usr/local/bin/docker","dockerfileDir":"/Users/bdmd/workspace/leetcode/leetcode-rust/docker","dockerImgUrl":"","isImage":false,"makefilePath":"../leetcode-rust","makefileFile":"makefile","target":"test","codePath":"/Users/bdmd/workspace/leetcode","m2Path":"/Users/bdmd/.m2","envScript":"","advancedDockerSettings":""}
