@@ -28,3 +28,4 @@ mod word_break;
 mod triangle;
 mod delete_operation_for_two_strings;
 mod fei_bo_na_qi_shu_lie_lcof;
+mod unique_binary_search_trees;
