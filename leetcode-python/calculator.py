@@ -36,14 +36,14 @@ def solution(input) -> int:
 
 def test_solution_01():
     input = "3+2 * 2"
-    acutual = solution(input)
+    actual = solution(input)
     expected = 7
-    assert expected == acutual
+    assert expected == actual
 
 
 def test_solution_02():
     input = "3+5/2*2-4"
-    acutual = solution(input)
-    print(acutual)
+    actual = solution(input)
+    print(actual)
     expected = 3
-    assert expected == acutual
+    assert expected == actual
