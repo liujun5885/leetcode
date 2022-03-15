@@ -34,16 +34,16 @@ def solution(input) -> int:
     return ans
 
 
-def test_solution_01():
-    input = "3+2 * 2"
-    actual = solution(input)
-    expected = 7
-    assert expected == actual
+class TestSolution:
+    def test_solution_01(self):
+        input = "3+2 * 2"
+        actual = solution(input)
+        expected = 7
+        assert expected == actual
 
-
-def test_solution_02():
-    input = "3+5/2*2-4"
-    actual = solution(input)
-    print(actual)
-    expected = 3
-    assert expected == actual
+    def test_solution_02(self):
+        input = "3+5/2*2-4"
+        actual = solution(input)
+        print(actual)
+        expected = 3
+        assert expected == actual
