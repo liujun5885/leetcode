@@ -18,7 +18,7 @@ class Solution:
             else:
                 ans += 1
                 j = i
-                while j < len(s) and s[j] == '1':
+                while j < len(s) and s[j] == '1':  # 1 + 1 will be even, so divided by 2
                     ans += 1
                     j += 1
                 if j < len(s):
