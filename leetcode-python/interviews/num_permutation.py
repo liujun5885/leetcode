@@ -24,17 +24,18 @@
 
 def solution(nums):
     s = []
-
+    queue = [i for i in range(len(nums))]
     ans = 0
-    i = 0
     p = 0
-    while i < len(nums):
+    while len(queue) > 0:
         if nums[p] in s:
             ans = max(len(s), ans)
             s = []
-        s.append(nums[p])
-        p = nums[p]
-        i += 1
+            p = queue[0]
+        else:
+            s.append(nums[p])
+            p = nums[p]
+            queue.remove(p)
 
     return ans
 
