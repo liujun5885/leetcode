@@ -12,18 +12,14 @@ class Solution:
         char_dict = defaultdict(int)
 
         while right < n:
-            while left <= right and len(char_dict) > 2:
-                char_dict[s[left]] -= 1
-                if char_dict[s[left]] == 0:
-                    del char_dict[s[left]]
-                left += 1
+            if len(char_dict) <= 2:
+                char_dict[s[right]] = right
+                right += 1
 
-            while right < n:
-                char_dict[s[right]] += 1
-                if len(char_dict) > 2:
-                    break
-                else:
-                    right += 1
+            if len(char_dict) > 2:
+                min_idx = min(char_dict.values())
+                del char_dict[s[min_idx]]
+                left = min_idx + 1
 
             ans = max(ans, right - left)
 
@@ -38,7 +34,13 @@ class TestCases(TestCase):
         self.assertEqual(expected, actual)
 
     def test_2(self):
-        s = "ccaabbb"
+        s = "ababffzzeee"
         expected = 5
+        actual = Solution().lengthOfLongestSubstringTwoDistinct(s)
+        self.assertEqual(expected, actual)
+
+    def test_3(self):
+        s = "abcabcabc"
+        expected = 2
         actual = Solution().lengthOfLongestSubstringTwoDistinct(s)
         self.assertEqual(expected, actual)
