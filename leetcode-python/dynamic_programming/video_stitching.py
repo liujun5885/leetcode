@@ -7,6 +7,22 @@ from unittest import TestCase
 class Solution:
     def videoStitching(self, clips: List[List[int]], time: int) -> int:
         ans = 0
+        left, right = 0, 0
+
+        max_n = [0 for _ in range(time)]
+        for a, b in clips:
+            if 0 <= a < time:
+                max_n[a] = max(max_n[a], b)
+
+        for i in range(time):
+            right = max(right, max_n[i])
+            if i == right:
+                return -1
+
+            if i == left:
+                ans += 1
+                left = right
+
         return ans
 
 
