@@ -12,12 +12,12 @@ class Solution:
 
         for i in range(n):
             if i % 2 == 0:
-                if s[i] != '0':
+                if s[i] != '0':  # if it's even, the number should be 0
                     even_ans += 1
                 else:
                     odd_ans += 1
             else:
-                if s[i] != '1':
+                if s[i] != '1':  # if it's even, the number should be 1
                     even_ans += 1
                 else:
                     odd_ans += 1
