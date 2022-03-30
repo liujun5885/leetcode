@@ -6,7 +6,13 @@ from unittest import TestCase
 
 class Solution:
     def validSubarrays(self, nums: List[int]) -> int:
+        stack = []
         ans = 0
+        for i in nums:
+            while len(stack) > 0 and stack[-1] > i:
+                stack.pop()
+            stack.append(i)
+            ans += len(stack)
         return ans
 
 
