@@ -14,8 +14,6 @@ class Solution:
         if n < 4:
             return []
 
-        print(nums)
-
         for i in range(n):
             for j in range(i + 1, n):
                 start, end = j + 1, n - 1
