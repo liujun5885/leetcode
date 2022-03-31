@@ -20,11 +20,11 @@ class Solution:
             for j in range(i + 1, n):
                 start, end = j + 1, n - 1
                 while start < end:
-                    while start < end - 1 and nums[start] == nums[start + 1]:
-                        start += 1
-
-                    while end > start + 1 and nums[end] == nums[end - 1]:
-                        end -= 1
+                    # while start < end - 1 and nums[start] == nums[start + 1]:
+                    #     start += 1
+                    #
+                    # while end > start + 1 and nums[end] == nums[end - 1]:
+                    #     end -= 1
                     if nums[i] + nums[j] + nums[start] + nums[end] == target:
                         ans.add((nums[i], nums[j], nums[start], nums[end]))
                         start += 1
