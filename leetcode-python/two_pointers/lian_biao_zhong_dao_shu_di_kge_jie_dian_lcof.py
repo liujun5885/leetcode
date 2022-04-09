@@ -8,13 +8,16 @@ class ListNode:
 
 class Solution:
     def getKthFromEnd(self, head: ListNode, k: int) -> ListNode:
+        # fast = slow
         fast, slow = head, head
+        # fast is k faster than slow
         while fast and k > 0:
             fast = fast.next
             k -= 1
-
+        # if fast go to then end, the slow is k slower than faster
         while fast:
             slow = slow.next
             fast = fast.next
 
+        # return slow
         return slow
