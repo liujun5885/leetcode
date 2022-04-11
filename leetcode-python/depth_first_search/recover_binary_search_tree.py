@@ -22,9 +22,10 @@ class Solution:
 
             root = stack.pop()
 
+            # if current value is smaller than previous, then it's the wrong one.
             if prev is not None and root.val < prev.val:
-                y = root
-                if x is None:
+                y = root  # the second is the smaller one
+                if x is None:  # the first is the bigger one
                     x = prev
                 else:
                     break
