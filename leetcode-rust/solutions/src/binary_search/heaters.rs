@@ -20,4 +20,22 @@ mod tests {
         let expected = 1;
         assert_eq!(actual, expected);
     }
+
+    #[test]
+    fn case02() {
+        let houses = vec![1, 2, 3, 4];
+        let heaters = vec![1, 4];
+        let actual = Solution::find_radius(houses, heaters);
+        let expected = 1;
+        assert_eq!(actual, expected);
+    }
+
+    #[test]
+    fn case03() {
+        let houses = vec![1, 5];
+        let heaters = vec![2];
+        let actual = Solution::find_radius(houses, heaters);
+        let expected = 3;
+        assert_eq!(actual, expected);
+    }
 }
