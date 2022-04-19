@@ -1,3 +1,5 @@
+// https://leetcode-cn.com/problems/house-robber-ii/
+
 struct Solution;
 
 impl Solution {
@@ -31,18 +33,21 @@ impl Solution {
 #[cfg(test)]
 mod tests {
     use crate::dynamic_programming::house_robber_ii::Solution;
+
     #[test]
     fn case01() {
         let actual = Solution::rob(vec![2, 3, 2]);
         let expected = 3;
         assert_eq!(actual, expected);
     }
+
     #[test]
     fn case02() {
         let actual = Solution::rob(vec![1, 2, 3, 1]);
         let expected = 4;
         assert_eq!(actual, expected);
     }
+
     #[test]
     fn case03() {
         let actual = Solution::rob(vec![1]);

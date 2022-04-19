@@ -1,4 +1,5 @@
 // https://leetcode-cn.com/problems/trapping-rain-water/
+
 struct Solution;
 
 impl Solution {

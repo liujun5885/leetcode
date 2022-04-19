@@ -1,3 +1,5 @@
+// https://leetcode-cn.com/problems/min-cost-climbing-stairs/
+
 use std::cmp;
 
 struct Solution;

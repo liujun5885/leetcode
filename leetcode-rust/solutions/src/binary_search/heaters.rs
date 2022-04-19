@@ -1,9 +1,17 @@
 // https://leetcode-cn.com/problems/heaters/
 
+use bisection;
+
 struct Solution;
 
 impl Solution {
     pub fn find_radius(houses: Vec<i32>, heaters: Vec<i32>) -> i32 {
+        let mut sorted_houses = houses.clone();
+        let mut sorted_heaters = heaters.clone();
+        sorted_houses.sort();
+        sorted_heaters.sort();
+
+
         1
     }
 }

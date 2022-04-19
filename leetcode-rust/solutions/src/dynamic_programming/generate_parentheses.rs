@@ -1,3 +1,5 @@
+// https://leetcode-cn.com/problems/generate-parentheses/
+
 struct Solution;
 
 impl Solution {

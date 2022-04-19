@@ -1,5 +1,7 @@
 // https://leetcode-cn.com/problems/paint-house/
+
 struct Solution;
+
 impl Solution {
     pub fn min_cost(costs: Vec<Vec<i32>>) -> i32 {
         let mut min = i32::MAX;

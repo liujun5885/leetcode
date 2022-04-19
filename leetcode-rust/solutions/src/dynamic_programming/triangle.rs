@@ -1,4 +1,5 @@
 // https://leetcode-cn.com/problems/triangle/submissions/
+
 struct Solution;
 
 impl Solution {

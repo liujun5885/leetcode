@@ -1,4 +1,5 @@
 // https://leetcode-cn.com/problems/max-consecutive-ones-ii/
+
 struct Solution;
 
 impl Solution {

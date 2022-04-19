@@ -1,6 +1,7 @@
 // https://leetcode-cn.com/problems/paint-house-ii/
 
 struct Solution;
+
 impl Solution {
     pub fn min_cost_ii(costs: Vec<Vec<i32>>) -> i32 {
         let k = costs[0].len();
