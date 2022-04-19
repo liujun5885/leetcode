@@ -5,3 +5,4 @@ mod heap;
 mod greedy;
 mod two_pointers;
 mod array;
+mod binary_search;
