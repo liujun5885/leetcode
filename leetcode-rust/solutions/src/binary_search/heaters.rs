@@ -6,13 +6,19 @@ struct Solution;
 
 impl Solution {
     pub fn find_radius(houses: Vec<i32>, heaters: Vec<i32>) -> i32 {
-        let mut sorted_houses = houses.clone();
         let mut sorted_heaters = heaters.clone();
-        sorted_houses.sort();
         sorted_heaters.sort();
+        let mut ans = 0;
 
+        for house in houses {
+            let j = bisection::bisect_left(&sorted_heaters, &house);
+            let i = j as i32 - 1;
+            let right_diff = if j >= heaters.len() { i32::MAX - house } else { sorted_heaters[j] - house };
+            let left_diff = if i < 0 { i32::MAX - house } else { house - sorted_heaters[i as usize] };
+            ans = right_diff.min(left_diff).max(ans);
+        }
 
-        1
+        return ans;
     }
 }
 
