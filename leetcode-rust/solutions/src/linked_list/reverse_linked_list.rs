@@ -6,14 +6,14 @@ struct Solution;
 
 impl Solution {
     pub fn reverse_list(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
-        let mut h: Option<Box<ListNode>> = None;
-        let mut cur = &head;
-        while let Some(p) = cur {
-            let node = Box::new(ListNode { val: p.val, next: h });
-            h = Some(node);
-            cur = &p.next;
+        let mut cur = head;
+        let mut result = None;
+        while let Some(mut node) = cur {
+            cur = node.next;
+            node.next = result;
+            result = Some(node);
         }
-        return h;
+        return result;
     }
 }
 
