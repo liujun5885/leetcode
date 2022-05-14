@@ -23,7 +23,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::array::binary_search::Solution;
+    use crate::binary_search::binary_search::Solution;
 
     #[test]
     fn case01() {
