@@ -12,7 +12,10 @@ impl Solution {
             reversed = Some(node);
         }
 
-        cur = Some(Box::new(ListNode { val: 0, next: reversed }));
+        cur = Some(Box::new(ListNode {
+            val: 0,
+            next: reversed,
+        }));
         reversed = None;
         let mut i = 0;
         while let Some(mut node) = cur {
