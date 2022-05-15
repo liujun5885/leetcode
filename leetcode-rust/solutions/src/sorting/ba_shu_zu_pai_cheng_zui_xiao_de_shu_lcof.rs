@@ -6,31 +6,30 @@ struct Solution;
 
 impl Solution {
     pub fn min_number(nums: Vec<i32>) -> String {
-        let mut num_str = nums.into_iter().map(
-            |x| { x.to_string() }
-        ).collect::<Vec<String>>();
-        num_str.sort_by(
-            |x1, x2| {
-                let mut x1_chars = x1.clone();
-                let mut x2_chars = x2.clone();
+        let mut num_str = nums
+            .into_iter()
+            .map(|x| x.to_string())
+            .collect::<Vec<String>>();
+        num_str.sort_by(|x1, x2| {
+            let mut x1_chars = x1.clone();
+            let mut x2_chars = x2.clone();
 
-                while x1_chars.len() > 0 && x2_chars.len() > 0 {
-                    let min_len = x1_chars.len().min(x2_chars.len());
-                    let result = x1_chars[0..min_len].cmp(&x2_chars[0..min_len]);
-                    if result != Ordering::Equal {
-                        return result;
-                    }
-
-                    if x1_chars.len() > x2_chars.len() {
-                        x1_chars = x1_chars[min_len..x1_chars.len()].to_string();
-                    } else {
-                        x2_chars = x2_chars[min_len..x2_chars.len()].to_string();
-                    }
+            while x1_chars.len() > 0 && x2_chars.len() > 0 {
+                let min_len = x1_chars.len().min(x2_chars.len());
+                let result = x1_chars[0..min_len].cmp(&x2_chars[0..min_len]);
+                if result != Ordering::Equal {
+                    return result;
                 }
 
-                return Ordering::Equal;
+                if x1_chars.len() > x2_chars.len() {
+                    x1_chars = x1_chars[min_len..x1_chars.len()].to_string();
+                } else {
+                    x2_chars = x2_chars[min_len..x2_chars.len()].to_string();
+                }
             }
-        );
+
+            return Ordering::Equal;
+        });
 
         return num_str.join("");
 

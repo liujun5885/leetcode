@@ -7,10 +7,7 @@ pub struct ListNode {
 impl ListNode {
     #[inline]
     pub fn new(val: i32) -> Self {
-        ListNode {
-            next: None,
-            val,
-        }
+        ListNode { next: None, val }
     }
 
     pub fn from_vec(vec: &Vec<i32>) -> Option<Box<ListNode>> {
@@ -54,4 +51,3 @@ mod test {
         assert_eq!(vec, head.convert_to_vec());
     }
 }
-

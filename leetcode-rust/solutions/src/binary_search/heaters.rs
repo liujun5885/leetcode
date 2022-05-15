@@ -13,8 +13,16 @@ impl Solution {
         for house in houses {
             let j = bisection::bisect_left(&sorted_heaters, &house);
             let i = j as i32 - 1;
-            let right_diff = if j >= heaters.len() { i32::MAX - house } else { sorted_heaters[j] - house };
-            let left_diff = if i < 0 { i32::MAX - house } else { house - sorted_heaters[i as usize] };
+            let right_diff = if j >= heaters.len() {
+                i32::MAX - house
+            } else {
+                sorted_heaters[j] - house
+            };
+            let left_diff = if i < 0 {
+                i32::MAX - house
+            } else {
+                house - sorted_heaters[i as usize]
+            };
             ans = right_diff.min(left_diff).max(ans);
         }
 

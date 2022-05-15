@@ -1,6 +1,6 @@
 // https://leetcode-cn.com/problems/word-break/
 
-use std::collections::{HashSet};
+use std::collections::HashSet;
 
 struct Solution {}
 
@@ -34,7 +34,7 @@ mod tests {
     #[test]
     fn case01() {
         let s = "leetcode";
-        let word_dict = ["leet", "code"].iter().map(|x| { String::from(*x) }).collect();
+        let word_dict = ["leet", "code"].iter().map(|x| String::from(*x)).collect();
         let actual = Solution::word_break(s.to_string(), word_dict);
         let expected = true;
         assert_eq!(actual, expected);

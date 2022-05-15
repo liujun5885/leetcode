@@ -1,9 +1,9 @@
-mod sorting;
+mod binary_search;
 mod dynamic_programming;
+mod greedy;
 mod hash_table;
 mod heap;
-mod greedy;
-mod two_pointers;
 mod linked_list;
-mod binary_search;
+mod sorting;
+mod two_pointers;
 mod utils;

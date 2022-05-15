@@ -11,7 +11,9 @@ impl Solution {
         for i in 0..sorted_nums.len() {
             let mut k = i;
             for j in i + 1..sorted_nums.len() {
-                while k + 1 < sorted_nums.len() && sorted_nums[i] + sorted_nums[j] > sorted_nums[k + 1] {
+                while k + 1 < sorted_nums.len()
+                    && sorted_nums[i] + sorted_nums[j] > sorted_nums[k + 1]
+                {
                     k += 1;
                 }
                 ans += 0.max(k as i32 - j as i32);

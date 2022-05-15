@@ -25,8 +25,7 @@ mod test {
     #[test]
     fn case01() {
         let head = vec![1, 2, 3, 4, 5];
-        let actual = Solution::reverse_list(
-            ListNode::from_vec(&head));
+        let actual = Solution::reverse_list(ListNode::from_vec(&head));
         let expected = vec![5, 4, 3, 2, 1];
         assert_eq!(actual.unwrap().convert_to_vec(), expected)
     }

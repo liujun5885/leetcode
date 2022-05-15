@@ -1,5 +1,5 @@
 // https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/
-use std::collections::{HashSet};
+use std::collections::HashSet;
 
 struct Solution {}
 

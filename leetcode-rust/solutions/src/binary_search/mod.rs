@@ -1,3 +1,2 @@
-mod heaters;
 mod binary_search;
-
+mod heaters;

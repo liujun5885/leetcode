@@ -14,7 +14,11 @@ impl Solution {
             banned_set.insert(i.to_lowercase());
         }
 
-        for i in paragraph.replace(&[',', '\"', '.', ';', ':', '\'', '!', '?'][..], " ").split(' ').into_iter() {
+        for i in paragraph
+            .replace(&[',', '\"', '.', ';', ':', '\'', '!', '?'][..], " ")
+            .split(' ')
+            .into_iter()
+        {
             let p = i.to_lowercase();
             if p.len() == 0 || banned_set.contains(&p) {
                 continue;

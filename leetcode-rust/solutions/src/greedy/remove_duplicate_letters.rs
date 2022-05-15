@@ -17,7 +17,9 @@ impl Solution {
         for c in s.chars() {
             while !ans.is_empty() && ans.last().unwrap() > &c {
                 let last = *ans.last().unwrap();
-                if char_counter[(last as u8 - 'a' as u8) as usize] <= 0 || visited[(c as u8 - 'a' as u8) as usize] {
+                if char_counter[(last as u8 - 'a' as u8) as usize] <= 0
+                    || visited[(c as u8 - 'a' as u8) as usize]
+                {
                     break;
                 }
                 ans.pop();
