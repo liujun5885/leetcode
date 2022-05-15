@@ -3,6 +3,26 @@ use crate::utils::list_node::ListNode;
 struct Solution;
 
 impl Solution {
+    pub fn leetcode_remove_nth_from_end(head: Option<Box<ListNode>>, n: i32) -> Option<Box<ListNode>> {
+        let mut dummy = Some(Box::new(ListNode { val: 0, next: head }));
+        let mut slow_p = &mut dummy;
+        let mut fast_p = &slow_p.clone();
+
+        for _ in 0..=n {
+            fast_p = &fast_p.as_ref().unwrap().next;
+        }
+
+        while fast_p.is_some() {
+            fast_p = &fast_p.as_ref().unwrap().next;
+            slow_p = &mut slow_p.as_mut().unwrap().next;
+        }
+
+        let remove_p = &mut slow_p.as_mut().unwrap().next;
+        slow_p.as_mut().unwrap().next = remove_p.as_mut().unwrap().next.take();
+
+        dummy.unwrap().next
+    }
+
     pub fn remove_nth_from_end(head: Option<Box<ListNode>>, n: i32) -> Option<Box<ListNode>> {
         let mut cur = head;
         let mut reversed: Option<Box<ListNode>> = None;
