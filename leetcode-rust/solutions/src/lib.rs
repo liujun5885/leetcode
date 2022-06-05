@@ -8,3 +8,4 @@ mod sorting;
 mod two_pointers;
 mod utils;
 mod introduction;
+mod math;
