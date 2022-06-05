@@ -1,9 +1,15 @@
+// https://leetcode.cn/problems/remove-nth-node-from-end-of-list/
+
 use crate::utils::list_node::ListNode;
 
 struct Solution;
 
 impl Solution {
-    pub fn leetcode_remove_nth_from_end(head: Option<Box<ListNode>>, n: i32) -> Option<Box<ListNode>> {
+    #![allow(dead_code)]
+    pub fn leetcode_remove_nth_from_end(
+        head: Option<Box<ListNode>>,
+        n: i32,
+    ) -> Option<Box<ListNode>> {
         let mut dummy = Some(Box::new(ListNode { val: 0, next: head }));
         let mut slow_p = &mut dummy;
         let mut fast_p = &slow_p.clone();
