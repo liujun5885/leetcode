@@ -5,6 +5,19 @@ use crate::utils::list_node::ListNode;
 struct Solution;
 
 impl Solution {
+    pub fn swap_pairs_map(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
+        head.map(|mut n| {
+            match n.next {
+                Some(mut m) => {
+                    n.next = Self::swap_pairs_map(m.next);
+                    m.next = Some(n);
+                    m
+                }
+                None => n
+            }
+        })
+    }
+
     pub fn swap_pairs_v2(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         head.and_then(|mut n| {
             match n.next {
@@ -86,7 +99,7 @@ mod test {
     #[test]
     fn case03_v2() {
         let head = vec![1, 2, 3, 4, 5];
-        let actual = Solution::swap_pairs_v2(ListNode::from_vec(&head));
+        let actual = Solution::swap_pairs_map(ListNode::from_vec(&head));
         let expected = vec![2, 1, 4, 3, 5];
         assert_eq!(actual.unwrap().convert_to_vec(), expected)
     }
