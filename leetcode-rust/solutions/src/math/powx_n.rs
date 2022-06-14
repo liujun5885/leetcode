@@ -1,6 +1,6 @@
 // https://leetcode.cn/problems/powx-n/
 
-struct Solution;
+pub struct Solution;
 
 impl Solution {
     pub fn divide(dividend: i32, divisor: i32) -> i32 {

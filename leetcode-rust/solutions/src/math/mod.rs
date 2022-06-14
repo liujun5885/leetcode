@@ -1,2 +1,2 @@
-mod divide_two_integers;
-mod powx_n;
+pub mod divide_two_integers;
+pub mod powx_n;
