@@ -2,7 +2,11 @@ struct Solution;
 
 impl Solution {
     pub fn divide(dividend: i32, divisor: i32) -> i32 {
-        dividend / divisor
+        if dividend == i32::MIN && divisor == -1 {
+            i32::MAX
+        } else {
+            dividend / divisor
+        }
     }
 }
 
