@@ -10,6 +10,7 @@ macro_rules! attempt { // `try` is a reserved keyword
    };
 }
 
+#[allow(dead_code)]
 #[derive(Debug)]
 enum MyError {
     DoStep1Error,
