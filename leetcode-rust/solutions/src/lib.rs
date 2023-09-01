@@ -11,3 +11,4 @@ mod introduction;
 mod string;
 mod math;
 mod array;
+mod tree;
