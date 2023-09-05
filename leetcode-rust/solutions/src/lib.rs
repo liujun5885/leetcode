@@ -12,3 +12,4 @@ pub mod string;
 pub mod math;
 pub mod array;
 pub mod tree;
+pub mod bit_manipulation;
