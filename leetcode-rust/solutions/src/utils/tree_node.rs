@@ -30,18 +30,24 @@ impl TreeNode {
         let mut i = 1;
         while !queue.is_empty() {
             let node = queue.pop_front().unwrap();
+            let mut has_child = false;
             if i < vec.len() && vec[i].is_some() {
                 let left = Rc::new(RefCell::new(TreeNode::new(vec[i].unwrap())));
                 node.borrow_mut().left = Some(left.clone());
                 queue.push_back(left);
+                has_child = true;
             }
             i += 1;
             if i < vec.len() && vec[i].is_some() {
                 let right = Rc::new(RefCell::new(TreeNode::new(vec[i].unwrap())));
                 node.borrow_mut().right = Some(right.clone());
                 queue.push_back(right);
+                has_child = true
             }
             i += 1;
+            if !has_child && i < vec.len() {
+                queue.push_back(node);
+            }
         }
 
         Some(head)
@@ -87,7 +93,16 @@ mod test {
 
     #[test]
     fn case01() {
-        let vec = vec![Some(1), Some(2), None, Some(3), None, Some(4), None, Some(5)];
+        let vec = vec![
+            Some(1),
+            Some(2),
+            None,
+            Some(3),
+            None,
+            Some(4),
+            None,
+            Some(5),
+        ];
         let head = TreeNode::from_vec(&vec).unwrap();
         assert_eq!(vec, head.borrow().to_vec());
     }
