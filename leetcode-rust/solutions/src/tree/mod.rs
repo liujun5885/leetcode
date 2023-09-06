@@ -6,3 +6,4 @@ mod balanced_binary_tree;
 mod minimum_depth_of_binary_tree;
 mod path_sum;
 mod binary_tree_postorder_traversal;
+mod invert_binary_tree;
